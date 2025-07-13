@@ -181,38 +181,6 @@ GET /api/bookings/{booking_id}/
 Authorization: Bearer {access_token}
 ```
 
-### Error Responses
-
-#### Authentication Error (401)
-```json
-{
-    "detail": "Authentication credentials were not provided."
-}
-```
-
-#### Permission Error (403)
-```json
-{
-    "detail": "You do not have permission to perform this action."
-}
-```
-
-#### Not Found Error (404)
-```json
-{
-    "detail": "Not found."
-}
-```
-
-#### Validation Error (400)
-```json
-{
-    "field_name": [
-        "This field is required."
-    ]
-}
-```
-
 ## About 1Now
 
 1Now helps vehicle owners to bypass third-party platforms like Turo and build their own rental ecosystem, giving full control of the booking experience and they don't take the full charge it seems.
